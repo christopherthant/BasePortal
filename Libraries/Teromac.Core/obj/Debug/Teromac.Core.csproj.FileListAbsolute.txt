@@ -1,0 +1,55 @@
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\Teromac.Core.dll.config
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\Teromac.Core.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\Teromac.Core.pdb
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\Autofac.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\Autofac.Integration.Mvc.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\Microsoft.Web.Infrastructure.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\Newtonsoft.Json.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\StackExchange.Redis.StrongName.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\System.Web.Helpers.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\System.Web.Mvc.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\System.Web.Razor.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\System.Web.WebPages.Deployment.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\System.Web.WebPages.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\System.Web.WebPages.Razor.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\Autofac.xml
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\Autofac.Integration.Mvc.xml
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\Newtonsoft.Json.xml
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\StackExchange.Redis.StrongName.pdb
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\StackExchange.Redis.StrongName.xml
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\System.Web.Helpers.xml
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\System.Web.Mvc.xml
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\System.Web.Razor.xml
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\System.Web.WebPages.xml
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\System.Web.WebPages.Deployment.xml
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\bin\System.Web.WebPages.Razor.xml
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\obj\Debug\Teromac.Core.dll
+D:\Development\Basic Admin (TWF based)\Reporting\Libraries\Teromac.Core\obj\Debug\Teromac.Core.pdb
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\Teromac.Core.dll.config
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\Teromac.Core.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\Teromac.Core.pdb
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\Autofac.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\Autofac.Integration.Mvc.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\Microsoft.Web.Infrastructure.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\Newtonsoft.Json.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\StackExchange.Redis.StrongName.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\System.Web.Helpers.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\System.Web.Mvc.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\System.Web.Razor.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\System.Web.WebPages.Deployment.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\System.Web.WebPages.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\System.Web.WebPages.Razor.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\Autofac.xml
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\Autofac.Integration.Mvc.xml
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\Newtonsoft.Json.xml
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\StackExchange.Redis.StrongName.pdb
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\StackExchange.Redis.StrongName.xml
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\System.Web.Helpers.xml
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\System.Web.Mvc.xml
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\System.Web.Razor.xml
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\System.Web.WebPages.xml
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\System.Web.WebPages.Deployment.xml
+D:\Development\BasePortal\Libraries\Teromac.Core\bin\System.Web.WebPages.Razor.xml
+D:\Development\BasePortal\Libraries\Teromac.Core\obj\Debug\Teromac.Core.csprojResolveAssemblyReference.cache
+D:\Development\BasePortal\Libraries\Teromac.Core\obj\Debug\Teromac.Core.dll
+D:\Development\BasePortal\Libraries\Teromac.Core\obj\Debug\Teromac.Core.pdb

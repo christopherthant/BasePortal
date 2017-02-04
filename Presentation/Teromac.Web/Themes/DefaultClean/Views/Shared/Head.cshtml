@@ -1,0 +1,36 @@
+﻿@using Teromac.Core;
+@using Teromac.Core.Infrastructure
+@using Teromac.Web.Framework.Themes
+@using Teromac.Web.Framework.UI
+@{
+    var kendoVersion = "2014.1.318";
+    var themeName = EngineContext.Current.Resolve<IThemeContext>().WorkingThemeName;
+
+    Html.AppendCssFileParts(string.Format("~/Themes/{0}/Content/css/styles.css", themeName));
+
+    ////add jQuery UI css file
+    //Html.AppendCssFileParts("~/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css");
+
+    //Html.AppendCssFileParts(string.Format("~/Content/kendo/{0}/kendo.rtl.min.css", kendoVersion));
+    //Html.AppendCssFileParts(string.Format("~/Content/kendo/{0}/kendo.default.min.css", kendoVersion));
+    //Html.AppendCssFileParts(string.Format("~/Content/kendo/{0}/kendo.common.min.css", kendoVersion));
+    //Html.AppendCssFileParts("~/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css");
+    //Html.AppendCssFileParts("~/Content/fontAwesome/css/font-awesome-4.6.3.min.css");
+    //Html.AppendCssFileParts("~/Content/typeahead/typeahead.css");
+    <!-- AdminLTE Skins (choose a skin from the css/skins) -->
+    //Html.AppendCssFileParts("~/Content/adminLTE/skins/_all-skins.min.css");
+
+    ////scripts
+    //Html.AppendScriptParts(string.Format("~/Scripts/kendo/{0}/kendo.web.min.js", kendoVersion));
+    //Html.AppendScriptParts("~/Scripts/admin.search.js");
+    //Html.AppendScriptParts("~/scripts/admin.navigation.js");
+    //Html.AppendScriptParts("~/Scripts/admin.common.js");
+    //Html.AppendScriptParts("~/Scripts/typeahead/typeahead.bundle.min.js");
+    //Html.AppendScriptParts("~/Scripts/jquery-migrate-1.2.1.min.js");
+    //Html.AppendScriptParts("~/Scripts/jquery-ui-1.10.3.custom.min.js");
+    //Html.AppendScriptParts("~/Scripts/jquery.validate.unobtrusive.min.js");
+    //Html.AppendScriptParts("~/Scripts/jquery.validate.min.js");
+    //Html.AppendScriptParts("~/Scripts/adminLTE/app.min.js");
+    //Html.AppendScriptParts("~/Scripts/bootstrap/bootstrap.min.js");
+    //Html.AppendScriptParts("~/Scripts/jquery-1.10.2.min.js");
+}

@@ -1,0 +1,58 @@
+﻿@{
+    Html.AppendScriptParts("~/Scripts/public.common.js");
+    Html.AppendScriptParts("~/Scripts/jquery-migrate-1.2.1.min.js");
+    Html.AppendScriptParts("~/Scripts/jquery-ui-1.10.3.custom.min.js");
+    Html.AppendScriptParts("~/Scripts/jquery.validate.unobtrusive.min.js");
+    Html.AppendScriptParts("~/Scripts/jquery.validate.min.js");
+    Html.AppendScriptParts("~/Scripts/jquery-1.10.2.min.js");
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="generator" content="nopCommerce" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        @Html.Partial("Head")
+        @Html.TeromacCssFiles(this.Url, ResourceLocation.Head)
+        @Html.TeromacScripts(this.Url, ResourceLocation.Head)
+    </head>
+    <body>
+        <div class="master-wrapper-page">
+            <div class="header">
+                @*<div class="header-upper">
+                    <div class="header-selectors-wrapper">
+                    </div>
+                    <div class="header-links-wrapper">
+                    </div>
+                </div>*@
+                <div class="header-lower">
+                    <div class="header-logo">
+                        @*<a href="@Url.RouteUrl("HomePage")">
+                            <img title="" alt="True World Foods" src="~/Content/Images/twf_logo.jpg">
+                        </a>*@
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-menu">
+
+            </div>
+            <div class="master-wrapper-content">
+                <div class="master-column-wrapper">
+                    <div class="center-1">
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+

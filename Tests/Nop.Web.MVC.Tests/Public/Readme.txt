@@ -1,0 +1,1 @@
+﻿This folder contains tests for Teromac.Web project (public store)

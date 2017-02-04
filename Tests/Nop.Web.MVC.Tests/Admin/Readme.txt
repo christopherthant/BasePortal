@@ -1,0 +1,1 @@
+﻿This folder contains tests for Teromac.Admin project (admin area)

@@ -1,0 +1,71 @@
+﻿@using Teromac.Core
+@using Teromac.Web.Framework.Menu;
+
+@{
+    //load sitemap
+    var siteMap = new Teromac.Web.Framework.Menu.XmlSiteMap();
+    siteMap.LoadFrom("~/sitemap.config");
+}
+
+@helper RenderMenuItem(Teromac.Web.Framework.Menu.SiteMapNode item)
+{
+    string url = null;
+    if (!string.IsNullOrEmpty(item.ControllerName) && !string.IsNullOrEmpty(item.ActionName))
+    {
+        url = Url.Action(item.ActionName, item.ControllerName, item.RouteValues, null, null);
+    }
+    else if (!string.IsNullOrEmpty(item.Url))
+    {
+        url = item.Url.StartsWith("~/", StringComparison.Ordinal) ? Url.Content(item.Url) : item.Url;
+    }
+    var isActive = item.ContainsSystemName(Html.GetActiveMenuItemSystemName());
+    <li>
+
+        @if (!String.IsNullOrEmpty(url))
+        {
+            <a href="@url">
+                @*@if (!String.IsNullOrEmpty(item.IconClass))
+                {
+                    <text>
+                        <i class="fa @Url.Content(item.IconClass)"></i>
+                    </text>
+                }*@
+                @item.Title
+            </a>
+        }
+        else
+        {
+            @*if (!String.IsNullOrEmpty(item.IconClass))
+            {
+                <text>
+                    <i class="fa @Url.Content(item.IconClass)"></i>
+                </text>
+            }*@
+            @item.Title
+        }
+        @if (item.ChildNodes.Any(x => x.Visible))
+        {
+            <ul>
+                @foreach (var childItem in item.ChildNodes.Where(x => x.Visible))
+                {
+                    @RenderMenuItem(childItem)
+                }
+            </ul>
+        }
+    </li>
+}
+<ul id="admin-menu">
+    @{
+        //standard (default) items
+        var rootNode = siteMap.RootNode;
+    }
+    @foreach (var item in rootNode.ChildNodes.Where(x => x.Visible))
+    {
+        @RenderMenuItem(item)
+    }
+</ul>
+<script>
+    $(document).ready(function() {
+        $("#admin-menu").kendoMenu();
+    });
+</script>

@@ -1,0 +1,52 @@
+﻿@model LoginModel
+@using Teromac.Web.Models.User;
+@{
+    Layout = "~/Views/Shared/_PublicLayout.cshtml";
+}
+<div class="page login-page">
+    <div class="page-title">
+        <a href="@Url.RouteUrl("HomePage")">
+            <img title="" alt="Teromac Technologies, Inc" src="~/Content/Images/logo.png">
+        </a>
+        <h1>@T("Account.Login.WebPortal").Text</h1>
+    </div>
+    <div class="page-body">
+        <div class="customer-blocks">
+            <div class="returning-wrapper fieldset">
+                @using (Html.BeginForm())
+                {
+                    var validationSummary = Html.ValidationSummary(true, T("Account.Login.Unsuccessful").Text);
+                    <div class="title">
+                        <strong>@T("Account.Login.Welcome").Text </strong>
+                    </div>
+                    if (!MvcHtmlString.IsNullOrEmpty(validationSummary))
+                    {
+                        <div class="message-error">@validationSummary</div>
+                    }
+                    <div class="form-fields">
+                        <div class="inputs">
+                            @Html.LabelFor(m => m.Username, new { }, ":")
+                            @Html.TextBoxFor(m => m.Username, new { @class = "username", autofocus = "autofocus" })
+                            @Html.ValidationMessageFor(m => m.Username)
+                        </div>
+                        <div class="inputs">
+                            @Html.LabelFor(m => m.Password, new { }, ":")
+                            @Html.PasswordFor(m => m.Password, new { @class = "password" })
+                            @Html.ValidationMessageFor(m => m.Password)
+                        </div>
+                        @*<div class="inputs reversed">
+                            @Html.CheckBoxFor(m => m.RememberMe)
+                            @Html.LabelFor(m => m.RememberMe)
+                            <span class="forgot-password">
+                                @Html.RouteLink(("Account.Login.ForgotPassword"), "PasswordRecovery")
+                            </span>
+                        </div>*@
+                    </div>
+                    <div class="buttons">
+                        <input class="button-1 login-button" type="submit" value="@T("Account.Login.LoginButton")" />
+                    </div>
+                }
+
+        </div>
+    </div>
+</div>
